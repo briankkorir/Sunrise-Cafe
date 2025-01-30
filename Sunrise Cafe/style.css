@@ -1,0 +1,124 @@
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+header {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.intro-text {
+  font-size: 1.2em;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E74C3C;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #680f06;
+  transition: 1s;
+}
+
+.menu-section {
+  
+  margin-top: 0%;
+  min-height: 180vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/3.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+
+}
+
+.menu-table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 2px solid #BDC3C7;
+  background-color: #F4F6F7;
+}
+
+.menu-table th, .menu-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.menu-table th {
+  background-color: #ccc8c8;
+  color: #2C3E50;
+}
+
+.contact-section {
+  margin: 0px;
+  text-align: center;
+  background-color: #2C3E50;
+}
+
+.contact-info {
+  font-size: 1.1em;
+  color: #7F8C8D;
+}
+
+.email-link, .map-link {
+  color: #E74C3C;
+  text-decoration: none;
+}
+
+.email-link:hover, .map-link:hover {
+  text-decoration: underline;
+}
+.header{
+margin-top: 0%;
+min-height: 125vh;
+width: 100%;
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/hotel.jpg);
+background-position: center;
+background-size: cover;
+position: relative; }
+ 
+.logo{
+  position: relative;
+  right: 625px;
+}
+ 
+.menu{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between; 
+}
+        
+.Breakfast, .Lunch, .Drinks{
+  flex-basis: 31%;
+  background: #eedcdc;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  padding: 5px 3px;
+  box-sizing:border-box;
+  transition: 0.5s;
+}
+
+.Breakfast:hover, .Lunch:hover, .Drinks :hover{
+box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+#rog{
+  position: relative;
+}
